@@ -12,7 +12,7 @@
     const date = new Date()
     const currentTime = [date.getUTCFullYear(), date.getUTCMonth(), date.getUTCDate(), date.getUTCHours(), date.getUTCMinutes(), date.getUTCMilliseconds()].join("");
 
-    fs.writeFile(currentTime+".json", JSON.stringify(accountDetails), "utf8", function (err) {
+    fs.writeFile("./wallets/"+currentTime+".json", JSON.stringify(accountDetails), "utf8", function (err) {
         if (err) {
             console.log("An error occured while writing JSON Object to File.");
             return console.log(err);
