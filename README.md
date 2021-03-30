@@ -19,5 +19,5 @@ $ npm install
 ### 3. Generate addresses
 
 ```
-$ node generate.js
+$ node generate.ts
 ```

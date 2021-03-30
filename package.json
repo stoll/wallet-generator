@@ -1,14 +1,22 @@
 {
   "name": "wallet-generator",
   "version": "1.0.0",
-  "main": "generate.js",
+  "main": "src/generate.ts",
   "license": "MIT",
   "scripts": {
-    "generate": "node generate.js",
-    "start": "node generate.js"
+    "start": "ts-node src/index.ts"
   },
   "dependencies": {
+    "@solana/web3.js": "^1.2.3",
     "ethereumjs-wallet": "^1.0.1",
-    "prompts": "^2.4.0"
+    "prompts": "^2.4.0",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.3"
+  },
+  "devDependencies": {
+    "@types/prompts": "^2.0.10",
+    "@typescript-eslint/eslint-plugin": "^4.20.0",
+    "@typescript-eslint/parser": "^4.20.0",
+    "eslint": "^7.23.0"
   }
 }
