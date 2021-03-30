@@ -14,7 +14,9 @@ import { Account as SolanaAccount } from "@solana/web3.js"
     })
 
     switch (response.blockchain) {
-        case "ethereum": {
+        case "ethereum":
+        case "bsc": {
+
             // Generate Ethereum account
             const account = Wallet.generate()
 
