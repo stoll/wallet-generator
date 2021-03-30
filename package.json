@@ -1,12 +1,14 @@
 {
   "name": "wallet-generator",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "generate.js",
   "license": "MIT",
   "scripts": {
-    "generate": "node generate.js"
+    "generate": "node generate.js",
+    "start": "node generate.js"
   },
   "dependencies": {
-    "ethereumjs-wallet": "^1.0.1"
+    "ethereumjs-wallet": "^1.0.1",
+    "prompts": "^2.4.0"
   }
 }
