@@ -2,6 +2,11 @@
 
 Simple CLI for generating Ethereum wallet addresses.
 
+**Supported blockchains:**
+
+* Ethereum
+* Solana *Coming soon*
+
 ## Usage
 
 ### 1. Clone repo
