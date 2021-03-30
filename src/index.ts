@@ -1,5 +1,6 @@
 import prompts from "prompts"
-import Wallet from "ethereumjs-wallet";
+import Wallet from "ethereumjs-wallet"
+import { Account as SolanaAccount } from "@solana/web3.js"
 
 (async () => {
     const response = await prompts({
@@ -40,7 +41,17 @@ import Wallet from "ethereumjs-wallet";
 
         case "solana": {
             // Generate Solana account
-            console.log("Coming soon...")
+            const account = new SolanaAccount()
+
+            console.log("===========================")
+            console.log("===========================")
+            console.log("---------------------------")
+            console.log("Public key: "+account.publicKey.toString())
+            console.log("---------------------------")
+            console.log("Secret key: "+account.secretKey.toString("hex"))
+            console.log("---------------------------")
+            console.log("===========================")
+            console.log("===========================")
 
             break
         }
