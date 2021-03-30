@@ -1,5 +1,6 @@
 .env
 wallets/*
+!.gitkeep
 unsuccessful/*
 .idea
 node_modules
