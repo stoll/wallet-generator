@@ -1,6 +1,6 @@
-# Ethereum Wallet Generator
+# Blockchain Wallet Generator
 
-Simple CLI for generating Ethereum wallet addresses.
+Simple CLI for generating blockchain wallet addresses.
 
 **Supported blockchains:**
 
