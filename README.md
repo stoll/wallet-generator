@@ -18,11 +18,11 @@ $ git clone git@github.com:stoll/wallet-generator.git wallet-generator
 ### 2. Install dependencies
 
 ```
-$ npm install
+$ yarn install
 ```
 
 ### 3. Generate addresses
 
 ```
-$ node generate.ts
+$ yarn start
 ```
